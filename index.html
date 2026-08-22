@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c090c1305e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav class="navigator">
+        <div class="nav-container">
+            <button class="burger" id="burgerBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="ulnavgator" id="navMenu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#objectve">Objetivo</a></li>
+                <li><a href="#formation">Formação</a></li>
+                <li><a href="#skills">Cursos</a></li>
+                <li><a href="#project">Projetos</a></li>
+                <li><a href="#vtae">Currículo</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="cabecalho" id="inicio">
+        <div class="content">
+            <img src="imgs/flavio.png" alt="Foto de Flávio Leonardo" class="foto">
+            <h1 class="h1title">Flávio Leonardo</h1>
+            <h2 class="h2title">Desenvolvedor Front End</h2>
+            <p class="ptitle">
+                Estudante e desenvolvedor apaixonado por tecnologia, sempre em busca de aprendizado e novos desafios. Aqui você encontra minha trajetória acadêmica, projetos desenvolvidos e habilidades adquiridas ao longo do caminho.
+            </p>
+        </div>
+    </header>
+
+    <hr>
+
+    <section class="objectve" id="objectve">
+        <div>
+            <h2 class="h2title">Objetivo</h2>
+            <p class="ptitle">
+                Desenvolvedor Front-end em busca de uma oportunidade para atuar na criação de interfaces modernas, responsivas e de fácil usabilidade, aplicando conhecimentos em HTML, CSS e JavaScript. Tenho interesse em transformar layouts em experiências funcionais e agradáveis para o usuário, além de aprender continuamente novas tecnologias e boas práticas de desenvolvimento. Possuo facilidade para trabalhar em equipe, atenção a detalhes visuais e comprometimento com a qualidade do código e o cumprimento de prazos.
+            </p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="formation" id="formation">
+        <h2 class="h2title">
+            <i class="fa-solid fa-graduation-cap"></i> Minha Formação
+        </h2>
+        <p class="ptitle">
+            <strong>Ensino Médio Completo</strong><br>
+            Conclusão da educação básica, desenvolvendo competências fundamentais em comunicação, raciocínio lógico e resolução de problemas, essenciais para a transição e aprimoramento contínuo na área de tecnologia e desenvolvimento web.
+        </p>
+    </section>
+
+    <hr>
+
+    <article id="skills">
+        <h2 class="h2title"><i class="fa-solid fa-brain"></i> Meus cursos</h2>
+        <div id="skill-container">
+            <div class="item">
+                <div class="info">
+                    <span class="nome">
+                        <i class="fa-solid fa-code"></i> HTML5
+                    </span>
+                    <span class="porcent">100%</span>
+                </div>
+                <div class="barra">
+                    <div class="progresso" style="width: 100%;"></div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="info">
+                    <span class="nome">
+                        <i class="fa-brands fa-css3-alt"></i> CSS3
+                    </span>
+                    <span class="porcent">100%</span>
+                </div>
+                <div class="barra">
+                    <div class="progresso" style="width: 100%;"></div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="info">
+                    <span class="nome">
+                        <i class="fa-solid fa-file-excel"></i> Excel Avançado
+                    </span>
+                    <span class="porcent">100%</span>
+                </div>
+                <div class="barra">
+                    <div class="progresso" style="width: 100%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="certificado">
+            <img src="imgs/diploma_1.png" alt="Certificado 1" loading="lazy">
+            <img src="imgs/diploma_2.png" alt="Certificado 2" loading="lazy">
+        </div>
+    </article>
+
+    <hr>
+
+    <section class="project" id="project">
+        <h2 class="project-section-title">Meus Projetos</h2>
+
+        <div class="project-content">
+            <div class="project-box">
+                <img src="imgs/escritório.png" alt="Imagem do projeto Landing Page Escritório" loading="lazy">
+                <h3 class="project-title">Landing Page - Escritório</h3>
+                <p class="project-description">Página institucional responsiva para um escritório de serviços, com seções de apresentação, especialidades e contato, desenvolvida em HTML, CSS e JavaScript.</p>
+            </div>
+
+            <div class="project-box">
+                <img src="imgs/breth-fotos.png" alt="Imagem do projeto Breth Fotos" loading="lazy">
+                <h3 class="project-title">Breth Fotos</h3>
+                <p class="project-description">Site para divulgação de um estúdio de fotografia, com galeria de imagens, layout responsivo e navegação simples entre os trabalhos.</p>
+            </div>
+
+            <div class="project-box">
+                <img src="imgs/loja-canetas.png" alt="Imagem do projeto Loja de Canetas" loading="lazy">
+                <h3 class="project-title">Loja de Canetas</h3>
+                <p class="project-description">Página de vitrine para uma loja de canetas personalizadas, exibindo produtos, preços e formas de contato para pedidos.</p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="vtae" id="vtae">
+        <h2 class="h2title">Histórico profissional</h2>
+        <p class="ptitle">
+            Profissional com ampla experiência nas áreas de Telecomunicações, Logística, Atendimento ao Cliente e Suporte Administrativo. Atuou como Coordenador na SEPLAG-DPERJ, Assistente Administrativo na Serede (OI) por mais de 10 anos — elaborando relatórios e controlando insumos — e Despachante em diversas prestadoras de serviços de telecom, além de conhecimentos em Excel Avançado, Access, HTML, CSS e JavaScript.
+        </p>
+        <img src="imgs/FlavioLeonardo-1.png" class="curriculo" alt="Currículo de Flavio Leonardo Silva Rosa" loading="lazy">
+    </section>
+
+    <hr>
+
+    <footer class="rodape" id="contact">
+       <ul class="contatos">
+    <li><a href="mailto:flavioleonardosrosa@gmail.com?subject=Contato" target="_blank" rel="noopener noreferrer" title="E-mail"><i class="fa-solid fa-envelope"></i></a></li>
+    <li><a href="https://wa.me/5521983852613" title="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a></li>
+    <li><a href="https://www.instagram.com/flavio_leonardo_fl/" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+    <li><a href="https://facebook.com/flavio.leonardo.1272/" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+    <li><a href="#tiktok" title="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
+</ul>
+        <p>&copy; 2026 Flavio Leonardo. Todos os direitos reservados</p>
+    </footer>
+    </section>
+    <button id="backToTop" title="voltar ao top"><i class="fas fa-arrow-up"></i>
+     </button>
+    <script src="script.js"></script>
+</body>
+</html>
